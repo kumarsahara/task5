@@ -1,0 +1,12 @@
+let person = {
+    "name": "mkumar",
+    "age": 28,
+    "sex": "male",
+    "maritelsatus": "unmarid",
+    "language": [ "tamil", "english", "hindi" ],
+    "Qualification": [ "DME", "BA.Humar Rights" ],
+    "skils": [ "communication", "flexibility" ],
+    "working experiance": [ "TVS group of company", "business"]
+};
+console.log(person)
+  

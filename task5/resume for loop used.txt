@@ -1,0 +1,18 @@
+let person=
+{
+   name: 'mkumar',
+    age: 28,
+    sex: 'male',
+    maritelsatus: 'unmarid',
+    language: [ 'tamil', 'english', 'hindi' ],
+    Qualification: [ 'DME', 'BA.Humar Rights' ],
+    skils: [ 'communication', 'flexibility' ],
+    'working experiance': [ 'TVS group of company', 'business' ]
+}
+//console.log(Object.entries(person))
+let entries  = Object.entries(person)
+for(let index=0;index<entries.length;index++){
+    //console.log(entries[index][0])
+    let entry=entries[index];
+    console.log(entry[0],":",entry[1]);
+}
